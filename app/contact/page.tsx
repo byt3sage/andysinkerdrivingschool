@@ -21,7 +21,7 @@ export default function ContactPage() {
               lessons, ADI training, franchise growth, or a combined pathway.
             </p>
             <div className="cta-row">
-              <Link className="button-primary" href="/ppc/driving-lessons">
+              <Link className="button-primary" href="/contact">
                 Book Lessons
               </Link>
               <Link className="button-ghost" href="/ppc/instructor-training">

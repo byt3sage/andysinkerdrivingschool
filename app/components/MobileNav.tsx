@@ -49,7 +49,7 @@ export default function MobileNav() {
         </ul>
         <Link
           className="button-secondary"
-          href="/ppc/driving-lessons"
+          href="/contact"
           onClick={() => setOpen(false)}
         >
           Book Lessons

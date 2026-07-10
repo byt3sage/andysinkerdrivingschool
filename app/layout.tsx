@@ -140,16 +140,13 @@ export default function RootLayout({
                 <li>
                   <Link href="/franchise">Franchise Opportunities</Link>
                 </li>
-                <li>
-                  <Link href="/ppc/franchise">Franchise Funnel</Link>
-                </li>
               </ul>
             </div>
             <div>
               <h3>Contact</h3>
               <ul>
                 <li>
-                  <a href="tel:+447700900000">Call: 07700 900000</a>
+                  <a href="tel:+447745671702">Call: 07745 671702</a>
                 </li>
                 <li>
                   <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>

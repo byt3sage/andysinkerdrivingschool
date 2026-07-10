@@ -44,7 +44,7 @@ export default function AboutPage() {
               Tri-Coaching BTEC level 4 in Coaching for Driver Development, Andy is currently
               partaking in Bright Coaching&apos;s Professional Diploma in Coaching for Driving
               Instructors. Andy is dedicated to continuous personal and professional development. He
-              regularly updates his knowledge and skills to ensure that every learner receives the
+              regularly updates his knowledge and skills to ensure that every learner and instructor receives the
               highest standard of training and support throughout their driving journey.
             </p>
           </div>
