@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="hero-band">
           <div className="site-shell stagger-rise">
             <p className="eyebrow">About</p>
-            <h1>Andy Sinker ADI, M Imst MTD</h1>
+            <h1>Andy Sinker ADI, <span style={{ whiteSpace: "nowrap" }}>M Imst MTD</span></h1>
             <p className="hero-lede">Managing Director and Lead Trainer</p>
           </div>
         </div>
@@ -29,15 +29,14 @@ export default function AboutPage() {
             </p>
 
             <p>
-              Recognised as one of the UK&apos;s top driving instructors, Andy has been ranked among
-              the Top 100 Driving Instructors in the country for the Intelligent Instructor Awards.
-              In 2023, he received a Highly Commended award for the Yorkshire and Humber region,
-              followed by Silver Awards in both 2025 and 2026.
+              Recognised as one of the UK&apos;s top driving instructors, Andy was honoured to receive the GoRoadie&apos;s Driving Instructor of the
+              Year Award for England in 2026, recognising his commitment to excellence in driver training.
             </p>
 
             <p>
-              In 2026, Andy was honoured to receive the GoRoadie&apos;s Driving Instructor of the
-              Year Award for England, recognising his commitment to excellence in driver training.
+              Andy has also been ranked among the Top 100 Driving Instructors in the country for the Intelligent Instructor Awards.
+              In 2023, he received a Highly Commended award for the Yorkshire and Humber region,
+              followed by Silver Awards in both 2025 and 2026.
             </p>
 
             <p>
