@@ -94,6 +94,9 @@ export default function RootLayout({
             <nav aria-label="Primary">
               <ul className="site-nav">
                 <li>
+                  <Link href="/about">About</Link>
+                </li>
+                <li>
                   <Link href="/driving-lessons">Driving Lessons</Link>
                 </li>
                 <li>
@@ -125,6 +128,9 @@ export default function RootLayout({
             <div>
               <h3>Explore</h3>
               <ul>
+                <li>
+                  <Link href="/about">About</Link>
+                </li>
                 <li>
                   <Link href="/driving-lessons">Driving Lessons</Link>
                 </li>

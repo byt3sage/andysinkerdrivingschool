@@ -35,7 +35,7 @@ const additionalSupport = [
 const drivingFaqs = [
   {
     q: "How old do I need to be to start driving lessons?",
-    a: "You can start learning to drive a car in the UK when you are 17 years old and have a valid provisional driving licence.",
+    a: "You can start learning to drive a car in the UK when you are 17 years old (16 years old with special permission granted from the DVLA) and have a valid provisional driving licence.",
   },
   {
     q: "Do I need a provisional licence before taking lessons?",
@@ -85,14 +85,12 @@ export default function DrivingLessonsPage() {
               <p className="eyebrow">Driving Lessons</p>
               <h1>Driving Lessons Tailored to You</h1>
               <p className="hero-lede">
-                At Andy Sinker Driving School, we understand that every learner has different
-                needs. That&rsquo;s why we provide personalised driving lessons designed around
-                your individual needs, learning style and goals.
+                At Andy Sinker Driving School, we understand that every learner is an individual. That is why we provide client-centered lessons, tailored to you.
               </p>
               <ul className="service-points">
                 <li>Build confidence and develop safer driving habits.</li>
                 <li>From first lesson to test-ready — at a pace that suits you.</li>
-                <li>Supported every step of the way, on and off the road.</li>
+                <li>Supported every step of the way, both on and off the road.</li>
               </ul>
               <div className="cta-row">
                 <Link href="/ppc/driving-lessons" className="button-primary">
@@ -140,7 +138,7 @@ export default function DrivingLessonsPage() {
       <section className="content-section section">
         <div className="site-shell">
           <p className="eyebrow" style={{ color: "var(--foreground)" }}>More Than Just Driving Lessons</p>
-          <h2 className="section-title">What You&rsquo;ll Get When You Learn With Us</h2>
+          <h2 className="section-title">What We Offer</h2>
           <p className="opp-intro">
             When you learn with Andy Sinker Driving School, you&rsquo;ll benefit from a
             comprehensive support package designed to help you succeed both on and off the road.
@@ -152,7 +150,7 @@ export default function DrivingLessonsPage() {
             </article>
             <article className="opp-card">
               <h3>Total Drive App</h3>
-              <p>All learners receive access to the Total Drive app to track progress, log reflections, book lessons, receive reminders, pay securely, and share updates with parents.</p>
+              <p>All learners receive access to the Total Drive app to track progress, log reflections, book lessons, receive reminders, pay securely, and share updates with others as desired.</p>
             </article>
             <article className="opp-card">
               <h3>Learning Resources</h3>

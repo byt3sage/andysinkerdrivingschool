@@ -74,7 +74,7 @@ export default function InstructorTrainingPage() {
           <div className="site-shell service-hero-grid">
             <div className="stagger-rise">
               <p className="eyebrow">Instructor Training</p>
-              <h1>Why become an Approved Driving Instructor (ADI)?</h1>
+              <h1>Why Become An Approved Driving Instructor (ADI)?</h1>
               <p className="hero-lede">
                 If you&rsquo;re looking for a career that offers full flexibility, job satisfaction
                 and the opportunity to make a real difference in people&rsquo;s lives, becoming an
@@ -130,7 +130,7 @@ export default function InstructorTrainingPage() {
 
       <section className="content-section alt section">
         <div className="site-shell">
-          <h2 className="section-title">The Benefits of a Rewarding Career as an ADI</h2>
+          <h2 className="section-title">The Benefits Of A Rewarding Career As An ADI</h2>
           <div className="content-grid">
             {benefits.map((benefit) => (
               <article key={benefit.title} className="content-card">
@@ -145,7 +145,7 @@ export default function InstructorTrainingPage() {
       <section className="content-section">
         <div className="site-shell split">
           <div>
-            <h2 className="section-title">Is Becoming an ADI Right for You?</h2>
+            <h2 className="section-title">Is Becoming An ADI Right For You?</h2>
             <p>
               Successful driving instructors are patient, professional, reliable and passionate
               about helping others learn. If you enjoy working with people, have excellent

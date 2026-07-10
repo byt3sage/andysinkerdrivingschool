@@ -26,7 +26,7 @@ const whyChoose = [
   },
   {
     title: "Pupils & Leads",
-    body: "Good supply of students from day one, backed by lead generation systems, marketing and advertising support, and booking and management tools.",
+    body: "Supply of students from day one, backed by lead generation systems, marketing and advertising support, and booking and management tools.",
   },
   {
     title: "Flexible Lifestyle",
@@ -42,6 +42,7 @@ const whatYouGet = [
   "Booking and management tools",
   "Operational resources",
   "Ongoing support",
+  "Training material and resources for you and your students",
 ];
 
 const whoWeWant = [
@@ -104,7 +105,7 @@ export default function FranchisePage() {
           <div className="site-shell service-hero-grid">
             <div className="stagger-rise">
               <p className="eyebrow">Franchise</p>
-              <h1>Build a Rewarding Business with a Trusted Driving School Brand</h1>
+              <h1>Build A Rewarding Business With A Trusted Driving School Brand</h1>
               <p className="hero-lede">
                 Join our driving school franchise network and become part of a growing, respected
                 brand dedicated to providing high-quality driver training across the region.
@@ -183,7 +184,7 @@ export default function FranchisePage() {
 
       <section className="content-section section">
         <div className="site-shell">
-          <h2 className="section-title">What You&rsquo;ll Receive</h2>
+          <h2 className="section-title">What You Will Receive</h2>
           <p className="section-lede">As a franchise partner, you&rsquo;ll gain access to:</p>
           <ul className="check-grid">
             {whatYouGet.map((item) => (
@@ -196,7 +197,7 @@ export default function FranchisePage() {
       <section className="content-section alt section">
         <div className="site-shell split">
           <div>
-            <h2 className="section-title">Who We&rsquo;re Looking For</h2>
+            <h2 className="section-title">Who Makes A Successful Franchisee</h2>
             <p className="section-lede">We welcome applications from individuals who are:</p>
             <ul className="check-grid">
               {whoWeWant.map((item) => (
