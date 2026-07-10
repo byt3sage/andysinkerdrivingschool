@@ -93,7 +93,7 @@ export default function DrivingLessonsPage() {
                 <li>Supported every step of the way, both on and off the road.</li>
               </ul>
               <div className="cta-row">
-                <Link href="/ppc/driving-lessons" className="button-primary">
+                <Link href="/contact" className="button-primary">
                   Book Your First Lesson
                 </Link>
                 <Link href="/contact" className="button-ghost">
@@ -205,7 +205,7 @@ export default function DrivingLessonsPage() {
               learning tools, and ongoing support, we&rsquo;re committed to helping you achieve
               your driving goals.
             </p>
-            <Link className="button-secondary" style={{ marginTop: "0.75rem", display: "inline-flex" }} href="/ppc/driving-lessons">
+            <Link className="button-secondary" style={{ marginTop: "0.75rem", display: "inline-flex" }} href="/contact">
               Book Your First Lesson
             </Link>
           </aside>

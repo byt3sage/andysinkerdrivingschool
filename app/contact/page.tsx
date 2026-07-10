@@ -24,7 +24,7 @@ export default function ContactPage() {
               <Link className="button-primary" href="/contact">
                 Book Lessons
               </Link>
-              <Link className="button-ghost" href="/ppc/instructor-training">
+              <Link className="button-ghost" href="/contact">
                 Start Instructor Application
               </Link>
             </div>
@@ -32,7 +32,7 @@ export default function ContactPage() {
           <aside className="hero-mini-card stagger-rise delay-1">
             <h2>Direct contact</h2>
             <p>
-              Phone: <a href="tel:+447700900000">07700 900000</a>
+              Phone: <a href="tel:+447745671702">07745 671702</a>
             </p>
             <p>
               Email: <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>

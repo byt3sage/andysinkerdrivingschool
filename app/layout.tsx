@@ -111,7 +111,7 @@ export default function RootLayout({
               </ul>
             </nav>
             <MobileNav />
-            <Link className="button-secondary" href="/ppc/driving-lessons">
+            <Link className="button-secondary" href="/contact">
               Book Lessons
             </Link>
           </div>
