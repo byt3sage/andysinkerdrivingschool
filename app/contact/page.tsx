@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -21,23 +22,28 @@ export default function ContactPage() {
               lessons, ADI training, franchise growth, or a combined pathway.
             </p>
             <div className="cta-row">
-              <Link className="button-primary" href="/contact">
+              <Link className="button-primary" href="/driving-lessons">
                 Book Lessons
               </Link>
-              <Link className="button-ghost" href="/contact">
+              <Link className="button-ghost" href="/instructor-training">
                 Start Instructor Application
               </Link>
             </div>
           </div>
-          <aside className="hero-mini-card stagger-rise delay-1">
-            <h2>Direct contact</h2>
-            <p>
-              Phone: <a href="tel:+447745671702">07745 671702</a>
-            </p>
-            <p>
-              Email: <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>
-            </p>
-            <p>Hours: Monday to Saturday, 08:00 to 19:00</p>
+          <aside className="hero-funnel-card stagger-rise delay-1">
+            <h2>Send a message</h2>
+            <p>Fill in the form below and we&rsquo;ll get back to you as soon as possible.</p>
+            <ContactForm />
+            <div style={{ marginTop: "1.5rem" }}>
+              <p>Or reach us directly:</p>
+              <p>
+                Phone: <a href="tel:+447745671702">07745 671702</a>
+              </p>
+              <p>
+                Email: <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>
+              </p>
+              <p>Hours: Monday to Saturday, 08:00 to 19:00</p>
+            </div>
           </aside>
         </div>
       </div>

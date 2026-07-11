@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FranchiseForm from "../components/FranchiseForm";
 
 export const metadata: Metadata = {
   title: "Franchise Opportunities",
@@ -127,23 +128,7 @@ export default function FranchisePage() {
             <aside className="hero-funnel-card stagger-rise delay-1">
               <h2>Interested in franchising?</h2>
               <p>Complete your details and we&rsquo;ll arrange a call, Zoom, or meeting in person.</p>
-              <form>
-                <label>
-                  Full name
-                  <input type="text" name="name" autoComplete="name" required />
-                </label>
-                <label>
-                  Email
-                  <input type="email" name="email" autoComplete="email" required />
-                </label>
-                <label>
-                  Phone
-                  <input type="tel" name="phone" autoComplete="tel" required />
-                </label>
-                <button type="submit" className="button-primary">
-                  Request a Call Back
-                </button>
-              </form>
+              <FranchiseForm />
             </aside>
           </div>
         </div>

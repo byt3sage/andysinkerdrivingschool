@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PpcFranchiseForm from "../../components/PpcFranchiseForm";
 
 export const metadata: Metadata = {
   title: "Franchise Enquiry",
@@ -25,31 +26,7 @@ export default function PpcFranchisePage() {
         </div>
         <aside className="lead-form">
           <h2>Request franchise pack</h2>
-          <form>
-            <label>
-              Full name
-              <input type="text" name="name" autoComplete="name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autoComplete="email" required />
-            </label>
-            <label>
-              Phone
-              <input type="tel" name="phone" autoComplete="tel" required />
-            </label>
-            <label>
-              Region of interest
-              <input type="text" name="region" required />
-            </label>
-            <label>
-              Background
-              <textarea name="background" placeholder="Tell us about your current experience" />
-            </label>
-            <button type="submit" className="button-primary">
-              Send Prospectus Request
-            </button>
-          </form>
+          <PpcFranchiseForm />
         </aside>
       </div>
     </section>

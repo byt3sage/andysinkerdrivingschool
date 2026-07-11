@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import InstructorTrainingForm from "../components/InstructorTrainingForm";
 
 export const metadata: Metadata = {
   title: "Instructor Training",
@@ -97,32 +98,7 @@ export default function InstructorTrainingPage() {
             <aside className="hero-funnel-card stagger-rise delay-1">
               <h2>Find out if ADI training is right for you</h2>
               <p>Get in touch and we can arrange a meeting in person, via Zoom or over the phone.</p>
-              <form>
-                <label>
-                  Full name
-                  <input type="text" name="name" autoComplete="name" required />
-                </label>
-                <label>
-                  Email
-                  <input type="email" name="email" autoComplete="email" required />
-                </label>
-                <label>
-                  Phone
-                  <input type="tel" name="phone" autoComplete="tel" required />
-                </label>
-                <label>
-                  Preferred contact method
-                  <select name="contact_method" defaultValue="phone">
-                    <option value="phone">Phone call</option>
-                    <option value="zoom">Zoom</option>
-                    <option value="in_person">In person</option>
-                  </select>
-                </label>
-                <button type="submit" className="button-primary">
-                  Request Information
-                </button>
-              </form>
-              {/* <p className="hero-funnel-note">No obligation.</p> */}
+              <InstructorTrainingForm />
             </aside>
           </div>
         </div>

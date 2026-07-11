@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PpcDrivingLessonsForm from "../../components/PpcDrivingLessonsForm";
 
 export const metadata: Metadata = {
   title: "Driving Lesson Booking",
@@ -25,35 +26,7 @@ export default function PpcDrivingLessonsPage() {
         </div>
         <aside className="lead-form">
           <h2>Check lesson availability</h2>
-          <form>
-            <label>
-              Full name
-              <input type="text" name="name" autoComplete="name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autoComplete="email" required />
-            </label>
-            <label>
-              Phone
-              <input type="tel" name="phone" autoComplete="tel" required />
-            </label>
-            <label>
-              Lesson type
-              <select name="lessonType" defaultValue="weekly">
-                <option value="weekly">Weekly lessons</option>
-                <option value="intensive">Intensive course</option>
-                <option value="refresher">Refresher lessons</option>
-              </select>
-            </label>
-            <label>
-              Preferred area
-              <input type="text" name="area" required />
-            </label>
-            <button type="submit" className="button-primary">
-              Request Callback
-            </button>
-          </form>
+          <PpcDrivingLessonsForm />
         </aside>
       </div>
     </section>
