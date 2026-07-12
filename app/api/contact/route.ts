@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
 
   const payload = {
     sender: { name: "Andy Sinker Driving", email: senderEmail },
-    to: [{ email: "jtooleuk@gmail.com", name: "Andy Sinker" }],
+    to: [{ email: "hello@andysinkerdriving.co.uk", name: "Andy Sinker" }],
     replyTo: { email, name },
     subject: `New enquiry — ${subjectLabel}`,
     htmlContent,
