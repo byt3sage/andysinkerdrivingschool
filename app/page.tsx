@@ -117,11 +117,11 @@ export default function Home() {
             </div>
             <aside className="hero-card hero-portrait stagger-rise delay-1" aria-label="Andy Sinker">
               <Image
-                src="/andy-sinker.png"
+                src="/andy-sinker-2.jpg"
                 alt="Andy Sinker"
-                width={640}
-                height={640}
+                fill
                 priority
+                style={{ objectFit: "cover" }}
               />
             </aside>
           </div>

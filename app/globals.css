@@ -416,18 +416,10 @@ h1 {
 }
 
 .hero-portrait {
-  display: grid;
-  place-items: center;
+  position: relative;
   min-height: 360px;
   background: rgba(18, 22, 27, 0.22);
-}
-
-.hero-portrait img {
-  width: 100%;
-  height: auto;
-  max-width: 420px;
-  object-fit: contain;
-  filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.28));
+  overflow: hidden;
 }
 
 .hero .button-ghost {
@@ -573,8 +565,27 @@ h1 {
   padding: clamp(1.2rem, 3vw, 2.5rem);
 }
 
+.accreditation-banner {
+  background: #f9f5ec;
+  border-top: 1px solid #e4ddd2;
+  padding: 1.5rem 0;
+}
+
+.accreditation-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.accreditation-inner img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
 .site-footer {
-  margin-top: 3rem;
   padding: 2rem 0 1rem;
   background: #242a30;
   color: #f9f5ec;
@@ -626,6 +637,71 @@ h1 {
 
 .content-section {
   padding: 3rem 0;
+}
+
+/* About page */
+.about-bio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-bio-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.about-portrait {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.about-award-feature {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-award-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-award-image {
+  flex-shrink: 0;
+}
+
+.about-awards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 820px;
+}
+
+.about-plaque {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.about-plaque img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-plaque figcaption {
+  font-size: 0.9rem;
+  color: var(--color-muted, #666);
+  text-align: center;
 }
 
 .content-grid {
@@ -864,8 +940,24 @@ h1 {
   .split,
   .content-grid,
   .ppc-grid,
-  .footer-grid {
+  .footer-grid,
+  .about-bio-grid,
+  .about-award-feature,
+  .about-awards-grid {
     grid-template-columns: 1fr;
+  }
+
+  .about-award-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .about-award-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-awards-grid {
+    max-width: 100%;
   }
 
   .section,

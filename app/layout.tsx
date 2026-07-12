@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Outfit, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/MobileNav";
+import AccreditationBanner from "./components/AccreditationBanner";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -119,6 +120,7 @@ export default function RootLayout({
         <main id="main-content" className="flex-1">
           {children}
         </main>
+        <AccreditationBanner />
         <footer className="site-footer">
           <div className="site-shell footer-grid">
             <div>
