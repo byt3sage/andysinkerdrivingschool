@@ -21,14 +21,6 @@ export default function ContactPage() {
               Share your current stage and goals. We will recommend the right route for learner
               lessons, ADI training, franchise growth, or a combined pathway.
             </p>
-            <div className="cta-row">
-              <Link className="button-primary" href="/driving-lessons">
-                Book Lessons
-              </Link>
-              <Link className="button-ghost" href="/instructor-training">
-                Start Instructor Application
-              </Link>
-            </div>
           </div>
           <aside className="hero-funnel-card stagger-rise delay-1">
             <h2>Send a message</h2>
