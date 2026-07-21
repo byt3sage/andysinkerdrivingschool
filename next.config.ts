@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         destination: "/instructor-training",
         permanent: true,
       },
+      {
+        source: "/files/:path*",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
