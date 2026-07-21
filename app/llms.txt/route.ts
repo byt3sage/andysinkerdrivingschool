@@ -1,12 +1,13 @@
 const body = `# Andy Sinker Driving School
 
-> Driving lessons, instructor training, and driving school franchising in the United Kingdom.
+> Driving lessons, instructor training, and driving school franchising in the United Kingdom specifically in West Yorkshire, Leeds and areas such as LS14 and LS15.
 
 ## Canonical URLs
 - https://andysinkerdriving.co.uk/
 - https://andysinkerdriving.co.uk/driving-lessons
 - https://andysinkerdriving.co.uk/instructor-training
 - https://andysinkerdriving.co.uk/franchise
+- https://andysinkerdriving.co.uk/about
 - https://andysinkerdriving.co.uk/contact
 
 ## Primary Services

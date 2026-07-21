@@ -3,7 +3,7 @@ import Link from "next/link";
 import InstructorTrainingForm from "../components/InstructorTrainingForm";
 
 export const metadata: Metadata = {
-  title: "Instructor Training",
+  title: "Driving Instructor Training in Leeds",
   description:
     "Become an Approved Driving Instructor (ADI) with Andy Sinker. Enjoy flexible hours, job satisfaction, and the chance to make a real difference on the road.",
   alternates: { canonical: "https://andysinkerdriving.co.uk/instructor-training" },
