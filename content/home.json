@@ -1,29 +1,53 @@
 {
   "metadata": {
     "title": "Home",
-    "description": "Welcome to Andy Sinker Driving School — expert driving lessons, instructor training, and franchise opportunities."
+    "description": "Welcome to Andy Sinker's Driving School — expert driving lessons, instructor training, and franchise opportunities."
   },
   "hero": {
-    "eyebrow": "Andy Sinker Driving School",
+    "eyebrow": "Andy Sinker's Driving School",
     "title": "Your journey to safe and confident driving — or a career change — starts here.",
-    "lede": "Welcome to Andy Sinker Driving School, where we are committed to helping learners become safe, skilled, and confident drivers. Whether you’re a complete beginner, preparing for your driving test, looking to improve your driving skills, or considering a career in driver education, our team is here to support you every step of the way.",
+    "lede": "Welcome to Andy Sinker's Driving School, where we are committed to helping learners become safe, skilled, and confident drivers. Whether you’re a complete beginner, preparing for your driving test, looking to improve your driving skills, or considering a career in driver education, our team is here to support you every step of the way.",
     "image": "/andy-sinker-2.jpg",
     "imageAlt": "Andy Sinker"
   },
   "audiences": [
-    { "title": "For Learners", "body": "Structured lessons, mock tests, motorway training, and anxiety support." },
-    { "title": "For Instructors", "body": "ADI training, business launch support, and franchise growth systems." }
+    {
+      "title": "For Learners",
+      "body": "Structured lessons, mock tests, motorway training, and anxiety support."
+    },
+    {
+      "title": "For Instructors",
+      "body": "ADI training, business launch support, and franchise growth systems."
+    }
   ],
   "whyChooseUs": {
     "eyebrow": "Why Choose Us",
     "title": "Six reasons learners and instructors choose Andy Sinker",
     "items": [
-      { "title": "Friendly and Reliable Instructors", "body": "Our professional instructors create a calm, supportive environment where every learner feels comfortable and can progress with confidence." },
-      { "title": "Flexible Lesson Times", "body": "Lessons available to suit your schedule, making it easier to fit learning around work, study, or family commitments." },
-      { "title": "Tailored to Your Pace", "body": "Structured lessons designed around your individual ability and learning style, so you always progress at the right speed." },
-      { "title": "High First-Time Pass Rate", "body": "Our thorough test preparation and structured approach have helped many learners achieve their licence first time." },
-      { "title": "Competitive Pricing", "body": "Affordable lessons with support for theory test preparation and fully funded online driving anxiety courses." },
-      { "title": "Multi-Award Winning Lead Trainer", "body": "Learn from an industry-recognised trainer, with regular open Zoom sessions where you can ask questions and discuss any concerns." }
+      {
+        "title": "Friendly and Reliable Instructors",
+        "body": "Our professional instructors create a calm, supportive environment where every learner feels comfortable and can progress with confidence."
+      },
+      {
+        "title": "Flexible Lesson Times",
+        "body": "Lessons available to suit your schedule, making it easier to fit learning around work, study, or family commitments."
+      },
+      {
+        "title": "Tailored to Your Pace",
+        "body": "Structured lessons designed around your individual ability and learning style, so you always progress at the right speed."
+      },
+      {
+        "title": "High First-Time Pass Rate",
+        "body": "Our thorough test preparation and structured approach have helped many learners achieve their licence first time."
+      },
+      {
+        "title": "Competitive Pricing",
+        "body": "Affordable lessons with support for theory test preparation and fully funded online driving anxiety courses."
+      },
+      {
+        "title": "Multi-Award Winning Lead Trainer",
+        "body": "Learn from an industry-recognised trainer, with regular open Zoom sessions where you can ask questions and discuss any concerns."
+      }
     ]
   },
   "mission": {
@@ -35,14 +59,46 @@
     "eyebrow": "Services We Offer",
     "title": "Everything you need, from first lesson to career",
     "items": [
-      { "title": "Learner Driving Lessons", "description": "From complete beginner to test-ready, with structured plans built around your progress.", "href": "/driving-lessons" },
-      { "title": "Refresher Lessons", "description": "Rebuild your confidence and sharpen your skills after a break from driving.", "href": "/driving-lessons" },
-      { "title": "Motorway Driving Training", "description": "Guided motorway sessions to develop the skills needed for high-speed road confidence.", "href": "/driving-lessons" },
-      { "title": "Mock Driving Tests", "description": "Realistic test-condition practice to prepare you fully for the real thing.", "href": "/driving-lessons" },
-      { "title": "Pass Plus Courses", "description": "Post-test training to broaden your experience and potentially reduce insurance premiums.", "href": "/driving-lessons" },
-      { "title": "Instructor Training", "description": "Full ADI Part 1–3 preparation with in-car mentoring and business launch support.", "href": "/instructor-training" },
-      { "title": "The Honest Truth Programme", "description": "Promoting safer driving habits for new drivers in the critical period after passing their test.", "href": "/contact" },
-      { "title": "Online Anxiety Courses", "description": "Support for driving anxiety, available online and fully funded by the school.", "href": "/contact" }
+      {
+        "title": "Learner Driving Lessons",
+        "description": "From complete beginner to test-ready, with structured plans built around your progress.",
+        "href": "/driving-lessons"
+      },
+      {
+        "title": "Refresher Lessons",
+        "description": "Rebuild your confidence and sharpen your skills after a break from driving.",
+        "href": "/driving-lessons"
+      },
+      {
+        "title": "Motorway Driving Training",
+        "description": "Guided motorway sessions to develop the skills needed for high-speed road confidence.",
+        "href": "/driving-lessons"
+      },
+      {
+        "title": "Mock Driving Tests",
+        "description": "Realistic test-condition practice to prepare you fully for the real thing.",
+        "href": "/driving-lessons"
+      },
+      {
+        "title": "Pass Plus Courses",
+        "description": "Post-test training to broaden your experience and potentially reduce insurance premiums.",
+        "href": "/driving-lessons"
+      },
+      {
+        "title": "Instructor Training",
+        "description": "Full ADI Part 1–3 preparation with in-car mentoring and business launch support.",
+        "href": "/instructor-training"
+      },
+      {
+        "title": "The Honest Truth Programme",
+        "description": "Promoting safer driving habits for new drivers in the critical period after passing their test.",
+        "href": "/contact"
+      },
+      {
+        "title": "Online Anxiety Courses",
+        "description": "Support for driving anxiety, available online and fully funded by the school.",
+        "href": "/contact"
+      }
     ]
   },
   "closing": {
