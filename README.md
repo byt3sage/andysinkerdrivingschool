@@ -24,8 +24,16 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+## Content Editing
+
+The main website pages are editable in [Pages CMS](https://app.pagescms.org/). To set it up:
+
+1. Sign in with the GitHub account that owns or manages this repository.
+2. Install the Pages CMS GitHub App for `byt3sage/andysinkerdrivingschool` and open the repository.
+3. Invite your parents by email from the Pages CMS collaborators area. They do not need GitHub accounts.
+
+Editors can update the Home, About, Driving Lessons, Instructor Training, Franchise, and Contact page content, including FAQs and images. New uploaded images are saved under `public/`. Page layouts, forms, navigation destinations, and the PPC landing pages remain code-managed. Saving edits writes them to GitHub; the live site will update through the repository's existing deployment connection when its build completes.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 

@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "firstLine": "Andy Sinker",
+    "secondLine": "Driving School",
+    "bookingButton": "Book Lessons"
+  },
+  "footer": {
+    "name": "Andy Sinker Driving School",
+    "tagline": "Building safer drivers, stronger instructors, and scalable local franchises.",
+    "exploreHeading": "Explore",
+    "contactHeading": "Contact",
+    "phoneLabel": "Call",
+    "phoneDisplay": "07745 671702",
+    "email": "hello@andysinkerdriving.co.uk"
+  }
+}

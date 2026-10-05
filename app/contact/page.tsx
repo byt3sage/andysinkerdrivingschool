@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
+import content from "../../content/contact.json";
+import siteContent from "../../content/site.json";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description:
-    "Speak with Andy Sinker Driving School about driving lessons, instructor training, and franchise options.",
+  title: content.metadata.title,
+  description: content.metadata.description,
   alternates: { canonical: "https://andysinkerdriving.co.uk/contact" },
 };
 
@@ -15,26 +16,25 @@ export default function ContactPage() {
       <div className="hero-band">
         <div className="site-shell service-hero-grid">
           <div className="stagger-rise">
-            <p className="eyebrow">Contact</p>
-            <h1>Let us map your next step.</h1>
-            <p className="hero-lede">
-              Share your current stage and goals. We will recommend the right route for learner
-              lessons, ADI training, franchise growth, or a combined pathway.
-            </p>
+            <p className="eyebrow">{content.hero.eyebrow}</p>
+            <h1>{content.hero.title}</h1>
+            <p className="hero-lede">{content.hero.lede}</p>
           </div>
           <aside className="hero-funnel-card stagger-rise delay-1">
-            <h2>Send a message</h2>
-            <p>Fill in the form below and we&rsquo;ll get back to you as soon as possible.</p>
+            <h2>{content.hero.formTitle}</h2>
+            <p>{content.hero.formDescription}</p>
             <ContactForm />
             <div style={{ marginTop: "1.5rem" }}>
-              <p>Or reach us directly:</p>
+              <p>{content.hero.directContactLabel}</p>
               <p>
-                Phone: <a href="tel:+447745671702">07745 671702</a>
+                {siteContent.footer.phoneLabel}: <a href={`tel:${siteContent.footer.phoneDisplay.replace(/\s/g, "")}`}>
+                  {siteContent.footer.phoneDisplay}
+                </a>
               </p>
               <p>
-                Email: <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>
+                Email: <a href={`mailto:${siteContent.footer.email}`}>{siteContent.footer.email}</a>
               </p>
-              <p>Hours: Monday to Saturday, 08:00 to 19:00</p>
+              <p>Hours: {content.hero.hours}</p>
             </div>
           </aside>
         </div>

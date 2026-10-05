@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Driving Lessons",
+    "description": "Personalised driving lessons tailored to you. Build confidence, develop safe driving habits and get the skills you need — supported every step of the way."
+  },
+  "hero": {
+    "eyebrow": "Driving Lessons",
+    "title": "Driving Lessons Tailored to You",
+    "lede": "At Andy Sinker Driving School, we understand that every learner is an individual. That is why we provide client-centered lessons, tailored to you.",
+    "points": [
+      "Build confidence and develop safer driving habits.",
+      "From first lesson to test-ready — at a pace that suits you.",
+      "Supported every step of the way, both on and off the road."
+    ],
+    "formTitle": "Get started today",
+    "formDescription": "Tell us a little about yourself and we’ll get back to you with availability."
+  },
+  "offer": {
+    "eyebrow": "More Than Just Driving Lessons",
+    "title": "What We Offer",
+    "intro": "When you learn with Andy Sinker Driving School, you’ll benefit from a comprehensive support package designed to help you succeed both on and off the road.",
+    "items": [
+      { "title": "Dedicated Support", "body": "A reliable, supportive driving instructor as your main point of contact, with access to the wider Andy Sinker Driving School team for additional guidance." },
+      { "title": "Total Drive App", "body": "All learners receive access to the Total Drive app to track progress, log reflections, book lessons, receive reminders, pay securely, and share updates with others as desired." },
+      { "title": "Learning Resources", "body": "Downloadable materials including the Learner Driver Introduction Booklet, Theory Test Support, Learning Log, and Show Me Tell Me Flashcards." },
+      { "title": "Additional Learning Support", "body": "YouTube theory videos, The Honest Truth programme, Confident Drivers calming kit, Driving Test Nerves Pro, and regular Zoom support sessions." }
+    ]
+  },
+  "app": {
+    "title": "Total Drive App Features",
+    "intro": "Included free for all learners:",
+    "items": [
+      "Track your progress through the driving syllabus",
+      "Complete reflective learning logs",
+      "Book and manage lessons",
+      "Receive lesson reminders",
+      "Make secure in-app payments",
+      "Share progress with parents or guardians through dedicated parental access"
+    ]
+  },
+  "resources": {
+    "title": "Learning Resources",
+    "intro": "Downloadable materials you’ll receive:",
+    "items": ["Learner Driver Introduction Booklet", "Theory Test Support Materials", "Learning Log", "Show Me, Tell Me Flashcards"]
+  },
+  "additionalSupport": {
+    "title": "Additional Learning Support",
+    "items": [
+      "YouTube videos covering theory test topics and driving advice",
+      "Access to The Honest Truth programme — helping new drivers stay safer after passing their test",
+      "Access to the Nervous Drivers Calming Kit course through Confident Drivers",
+      "Access to Driving Test Nerves Pro through L of a Way 2 Pass",
+      "Regular online support sessions via Zoom for extra guidance, motivation, and Q&As"
+    ],
+    "cardTitle": "Helping You Become a Safer, Confident Driver",
+    "cardBody": "Our goal isn’t just to help you pass your driving test — it’s to help you become a confident, responsible, and independent driver. With expert tuition, modern learning tools, and ongoing support, we’re committed to helping you achieve your driving goals."
+  },
+  "faqs": {
+    "title": "Driving Lessons FAQs",
+    "items": [
+      { "q": "How old do I need to be to start driving lessons?", "a": "You can start learning to drive a car in the UK when you are 17 years old (16 years old with special permission granted from the DVLA) and have a valid provisional driving licence." },
+      { "q": "Do I need a provisional licence before taking lessons?", "a": "Yes. You must have a valid provisional driving licence before you can take lessons on public roads." },
+      { "q": "How many driving lessons will I need before my test?", "a": "Every learner is different. The average learner requires around 45 hours of professional tuition alongside additional private practice, according to the DVSA (Driver and Vehicle Standards Agency)." },
+      { "q": "Can I choose between manual and automatic lessons?", "a": "Currently at Andy Sinker Driving we are only in a position to offer manual lessons, but we will soon be starting automatic lessons." },
+      { "q": "How much do driving lessons cost?", "a": "Lesson prices vary depending on the status and experience of your driving instructor. Contact us for our latest pricing." },
+      { "q": "Can I book intensive driving courses?", "a": "Yes. Intensive and semi-intensive courses are available subject to availability for learners who want to progress quickly. Please note that due to government legislation the school or instructor is unable to provide or book tests on your behalf. Contact us for availability." },
+      { "q": "What happens if I need to cancel a lesson?", "a": "48 hours' notice must be provided when cancelling a lesson as per our cancellation policy. This gives our instructors time to offer the slot to another learner. The more notice you give, the better — most instructors' income relies solely on providing lessons. Please contact us as soon as possible if you need to reschedule." },
+      { "q": "Can I use my instructor's car for the driving test?", "a": "Yes. Subject to availability and your instructor's approval, you can usually use the training vehicle for your practical test." },
+      { "q": "Do you offer motorway lessons?", "a": "Yes. Motorway lessons are available for qualified drivers and learners as regulations permit." },
+      { "q": "What areas do you cover?", "a": "We provide lessons across most Leeds postcodes. Contact us to check availability in your postcode." }
+    ]
+  }
+}

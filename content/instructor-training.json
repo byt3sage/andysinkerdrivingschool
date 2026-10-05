@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Driving Instructor Training in Leeds",
+    "description": "Become an Approved Driving Instructor (ADI) with Andy Sinker. Enjoy flexible hours, job satisfaction, and the chance to make a real difference on the road."
+  },
+  "hero": {
+    "eyebrow": "Instructor Training",
+    "title": "Why Become An Approved Driving Instructor (ADI)?",
+    "lede": "If you’re looking for a career that offers full flexibility, job satisfaction and the opportunity to make a real difference in people’s lives, becoming an ADI could be the perfect choice.",
+    "points": [
+      "Flexible hours — full-time, part-time, evenings or weekends.",
+      "Client-centred teaching that keeps every lesson different.",
+      "Help learners gain confidence, independence and safer roads."
+    ],
+    "formTitle": "Find out if ADI training is right for you",
+    "formDescription": "Get in touch and we can arrange a meeting in person, via Zoom or over the phone."
+  },
+  "benefits": {
+    "title": "The Benefits Of A Rewarding Career As An ADI",
+    "items": [
+      { "title": "Enjoy Flexible Working Hours", "body": "Whether you prefer to work full-time, part-time, weekdays, evenings, weekends or even wind down into retirement, you can structure your schedule around your lifestyle and personal commitments. This flexibility makes driving instruction an attractive career for parents, career changers and those seeking a better work-life balance." },
+      { "title": "Make a Positive Difference", "body": "Learning to drive is a significant milestone in a person's life. As an ADI, you'll play an important role in helping learners gain independence, access new employment opportunities and achieve personal goals. Few careers offer the same level of personal satisfaction as seeing a student pass their driving test." },
+      { "title": "Continuous Professional Development", "body": "Becoming an ADI is just the beginning. Many instructors continue to develop their skills through additional training, specialist qualifications and coaching techniques — from advanced driving and fleet training to motorway lessons and instructor training." }
+    ]
+  },
+  "career": {
+    "title": "Is Becoming An ADI Right For You?",
+    "paragraphs": [
+      "Successful driving instructors are patient, professional, reliable and passionate about helping others learn. If you enjoy working with people, have excellent communication skills, are passionate about road safety and want a career that offers flexibility and personal fulfilment, becoming an ADI could be the ideal next step.",
+      "As an ADI you’ll use client-centred methods to help each learner at their own pace, meeting their individual needs. Every lesson is different, which keeps the role engaging and rewarding."
+    ],
+    "cardTitle": "Ready to find out more?",
+    "cardBody": "Contact us to arrange a meeting either in person, via Zoom or over the phone. We’ll answer all your questions and help you decide if becoming an ADI is the right move for you."
+  },
+  "faqs": {
+    "title": "Driving Instructor Training FAQs",
+    "items": [
+      { "q": "What is an ADI?", "a": "ADI stands for ‘Approved Driving Instructor’. ADIs are qualified instructors registered with the Driver and Vehicle Standards Agency (DVSA)." },
+      { "q": "What are the requirements to become a driving instructor?", "a": "You must meet the DVSA eligibility requirements. This includes age restrictions, driving experience and background checks." },
+      { "q": "How long does ADI training take?", "a": "Training times vary, depending on their availability and progress and test availability." },
+      { "q": "What are the ADI Part 1, Part 2 and Part 3 tests?", "a": "Part 1 is the theory test, Part 2 assesses your driving ability, and Part 3 evaluates your instructional skills." },
+      { "q": "Do you provide support for all three ADI tests?", "a": "Yes. Our training programme covers all stages of the qualification process." },
+      { "q": "Can I train part-time while working?", "a": "Yes. Many trainees complete their instructor training around existing work and family commitments." },
+      { "q": "What happens if I fail an ADI test?", "a": "You can sit the Part 1 test as many times as you need, but for the Part 2 and Part 3 tests you will get a maximum of 3 attempts. If you are unsuccessful after your 3rd attempt, you need to wait until your Part 1 test runs out of date before starting the process again." },
+      { "q": "How much can a qualified driving instructor earn?", "a": "Income varies depending on location, hours worked, and whether you are self-employed or working under a franchise." },
+      { "q": "Will I receive help finding pupils once qualified?", "a": "Yes. We can discuss franchise and pupil supply options available to newly qualified instructors." },
+      { "q": "Is there ongoing support after qualification?", "a": "Yes. We provide continuing support, mentoring, and professional development opportunities to all franchisees." }
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+media:
+  - name: siteImages
+    label: Site images
+    input: public
+    output: /
+    categories: [image]
+
+content:
+  - name: home
+    label: Home page
+    type: file
+    path: content/home.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Main banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: lede, label: Introductory text, type: text }
+          - name: image
+            label: Main image
+            type: image
+            options: { media: siteImages }
+          - { name: imageAlt, label: Image description, type: string }
+      - name: audiences
+        label: Audience panels
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: title, label: Heading, type: string }
+          - { name: body, label: Text, type: text }
+      - name: whyChooseUs
+        label: Why choose us
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Reasons
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Heading, type: string }
+              - { name: body, label: Text, type: text }
+      - name: mission
+        label: Our mission
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Section heading, type: text }
+          - { name: body, label: Text, type: text }
+      - name: services
+        label: Services
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Service links
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Link heading, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: href, label: Destination (fixed), type: string, readonly: true }
+      - name: closing
+        label: Closing message
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Heading, type: text }
+          - { name: body, label: Text, type: text }
+
+  - name: about
+    label: About page
+    type: file
+    path: content/about.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Main banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: subtitle, label: Introductory text, type: text }
+      - name: biography
+        label: Biography
+        type: object
+        fields:
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - name: image
+            label: Portrait
+            type: image
+            options: { media: siteImages }
+          - { name: imageAlt, label: Image description, type: string }
+      - name: featuredAward
+        label: Featured award
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Award heading, type: text }
+          - { name: body, label: Description, type: text }
+          - name: image
+            label: Award image
+            type: image
+            options: { media: siteImages }
+          - { name: imageAlt, label: Image description, type: string }
+      - name: recognition
+        label: Other recognition
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Section heading, type: text }
+          - { name: body, label: Description, type: text }
+          - name: awards
+            label: Award images
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{caption}" } }
+            fields:
+              - name: image
+                label: Award image
+                type: image
+                options: { media: siteImages }
+              - { name: imageAlt, label: Image description, type: string }
+              - { name: caption, label: Caption, type: string }
+
+  - name: drivingLessons
+    label: Driving lessons page
+    type: file
+    path: content/driving-lessons.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Main banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: lede, label: Introductory text, type: text }
+          - { name: points, label: Key points, type: string, list: true }
+          - { name: formTitle, label: Form heading, type: text }
+          - { name: formDescription, label: Form introduction, type: text }
+      - name: offer
+        label: What we offer
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Section heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - name: items
+            label: Support cards
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Heading, type: string }
+              - { name: body, label: Text, type: text }
+      - name: app
+        label: Total Drive app
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - { name: items, label: Features, type: string, list: true }
+      - name: resources
+        label: Learning resources
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - { name: items, label: Resources, type: string, list: true }
+      - name: additionalSupport
+        label: Additional support
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: items, label: Support options, type: string, list: true }
+          - { name: cardTitle, label: Callout heading, type: text }
+          - { name: cardBody, label: Callout text, type: text }
+      - name: faqs
+        label: FAQs
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Questions and answers
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{q}" } }
+            fields:
+              - { name: q, label: Question, type: text }
+              - { name: a, label: Answer, type: text }
+
+  - name: instructorTraining
+    label: Instructor training page
+    type: file
+    path: content/instructor-training.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Main banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: lede, label: Introductory text, type: text }
+          - { name: points, label: Key points, type: string, list: true }
+          - { name: formTitle, label: Form heading, type: text }
+          - { name: formDescription, label: Form introduction, type: text }
+      - name: benefits
+        label: Career benefits
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Benefit cards
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Heading, type: string }
+              - { name: body, label: Text, type: text }
+      - name: career
+        label: Is this career right for you?
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: cardTitle, label: Callout heading, type: text }
+          - { name: cardBody, label: Callout text, type: text }
+      - name: faqs
+        label: FAQs
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Questions and answers
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{q}" } }
+            fields:
+              - { name: q, label: Question, type: text }
+              - { name: a, label: Answer, type: text }
+
+  - name: franchise
+    label: Franchise page
+    type: file
+    path: content/franchise.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Main banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: lede, label: Introductory text, type: text }
+          - { name: points, label: Key points, type: string, list: true }
+          - { name: formTitle, label: Form heading, type: text }
+          - { name: formDescription, label: Form introduction, type: text }
+      - name: opportunities
+        label: Business opportunity
+        type: object
+        fields:
+          - { name: introLabel, label: Small heading, type: text }
+          - name: items
+            label: Opportunity cards
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Heading, type: string }
+              - { name: body, label: Text, type: text }
+          - { name: body, label: Introduction, type: text }
+      - name: whyChoose
+        label: Why choose our franchise
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Benefits
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Heading, type: string }
+              - { name: body, label: Text, type: text }
+      - name: package
+        label: Franchise package
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - { name: items, label: Included items, type: string, list: true }
+      - name: whoWeWant
+        label: Who we are looking for
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - { name: items, label: Qualities, type: string, list: true }
+          - { name: cardTitle, label: Callout heading, type: text }
+          - { name: cardBody, label: Callout text, type: text }
+      - name: financial
+        label: Financial opportunity
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: cardTitle, label: Callout heading, type: text }
+          - { name: cardBody, label: Callout text, type: text }
+      - name: faqs
+        label: FAQs
+        type: object
+        fields:
+          - { name: title, label: Section heading, type: text }
+          - name: items
+            label: Questions and answers
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{q}" } }
+            fields:
+              - { name: q, label: Question, type: text }
+              - { name: a, label: Answer, type: text }
+
+  - name: contact
+    label: Contact page
+    type: file
+    path: content/contact.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: metadata
+        label: Search preview
+        type: object
+        fields:
+          - { name: title, label: Page title, type: string }
+          - { name: description, label: Search description, type: text }
+      - name: hero
+        label: Contact page text
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: lede, label: Introductory text, type: text }
+          - { name: formTitle, label: Form heading, type: text }
+          - { name: formDescription, label: Form introduction, type: text }
+          - { name: directContactLabel, label: Direct contact heading, type: text }
+          - { name: hours, label: Opening hours, type: string }
+
+  - name: site
+    label: Shared site details
+    type: file
+    path: content/site.json
+    operations: { create: false, rename: false, delete: false }
+    format: json
+    fields:
+      - name: brand
+        label: Header
+        type: object
+        fields:
+          - { name: firstLine, label: Brand name, type: string }
+          - { name: secondLine, label: Brand descriptor, type: string }
+          - { name: bookingButton, label: Booking button, type: string }
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: name, label: Business name, type: string }
+          - { name: tagline, label: Tagline, type: text }
+          - { name: exploreHeading, label: Navigation heading, type: string }
+          - { name: contactHeading, label: Contact heading, type: string }
+          - { name: phoneLabel, label: Phone link label, type: string }
+          - { name: phoneDisplay, label: Phone number, type: string }
+          - { name: email, label: Email address, type: string }

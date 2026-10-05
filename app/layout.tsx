@@ -4,6 +4,7 @@ import { Outfit, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/MobileNav";
 import AccreditationBanner from "./components/AccreditationBanner";
+import siteContent from "../content/site.json";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -88,8 +89,8 @@ export default function RootLayout({
             <Link href="/" className="brand-mark" aria-label="Andy Sinker Driving School home">
               <span>AS</span>
               <div>
-                <p>Andy Sinker</p>
-                <p>Driving School</p>
+                <p>{siteContent.brand.firstLine}</p>
+                <p>{siteContent.brand.secondLine}</p>
               </div>
             </Link>
             <nav aria-label="Primary">
@@ -113,7 +114,7 @@ export default function RootLayout({
             </nav>
             <MobileNav />
             <Link className="button-secondary" href="/contact">
-              Book Lessons
+              {siteContent.brand.bookingButton}
             </Link>
           </div>
         </header>
@@ -124,11 +125,11 @@ export default function RootLayout({
         <footer className="site-footer">
           <div className="site-shell footer-grid">
             <div>
-              <h2>Andy Sinker Driving School</h2>
-              <p>Building safer drivers, stronger instructors, and scalable local franchises.</p>
+              <h2>{siteContent.footer.name}</h2>
+              <p>{siteContent.footer.tagline}</p>
             </div>
             <div>
-              <h3>Explore</h3>
+              <h3>{siteContent.footer.exploreHeading}</h3>
               <ul>
                 <li>
                   <Link href="/about">About</Link>
@@ -145,13 +146,15 @@ export default function RootLayout({
               </ul>
             </div>
             <div>
-              <h3>Contact</h3>
+              <h3>{siteContent.footer.contactHeading}</h3>
               <ul>
                 <li>
-                  <a href="tel:+447745671702">Call: 07745 671702</a>
+                  <a href={`tel:${siteContent.footer.phoneDisplay.replace(/\s/g, "")}`}>
+                    {siteContent.footer.phoneLabel}: {siteContent.footer.phoneDisplay}
+                  </a>
                 </li>
                 <li>
-                  <a href="mailto:hello@andysinkerdriving.co.uk">hello@andysinkerdriving.co.uk</a>
+                  <a href={`mailto:${siteContent.footer.email}`}>{siteContent.footer.email}</a>
                 </li>
               </ul>
             </div>
