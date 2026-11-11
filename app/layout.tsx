@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { Outfit, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/MobileNav";
@@ -81,6 +82,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${outfit.variable} ${nunitoSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8EMV7W3SP1"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8EMV7W3SP1');
+          `}
+        </Script>
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
